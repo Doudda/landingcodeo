@@ -7,7 +7,7 @@ export default function RightSection2() {
 				<div className="text-xl font-bold text-purple-950">
 					DEPARTURE - Central European Summer Time
 				</div>
-				<div className="flex flex-row gap-5 text-gray-300">
+				<div className="flex flex-row gap-5 text-gray-300 pt-2">
 					<div>
 						<div>Horaire</div>
 						<div className="text-purple-950 font-bold">22:53</div>

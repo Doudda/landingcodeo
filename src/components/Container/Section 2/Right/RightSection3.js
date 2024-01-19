@@ -9,6 +9,14 @@ export default function RightSection3() {
 				million d'utilisateurs au cours du mois dernier
 				<div className="text-gray-300">Auberges de Jeunesse - Reservation securisee</div>
 			</div>
+			<div className="flex flex-row gap-1 mt-3">
+				<img className="rounded-xl" src="down.jpg" />
+				<img className="rounded-xl" src="down.jpg" />
+			</div>
+			<div className="flex flex-row gap-2 text-gray-300 mt-2">
+				<div className="bg-gray-100 py-1 px-3 rounded-full">Tout guide</div>
+				<div className="bg-gray-100 py-1 px-3 rounded-full">Prix entree</div>
+			</div>
 		</div>
 	);
 }

@@ -3,6 +3,9 @@ import RightSection1 from "./RightSection1";
 import RightSection2 from "./RightSection2";
 import RightSection3 from "./RightSection3";
 import RightSection4 from "./RightSection4";
+import RightSection5 from "./RightSection5";
+import RightSection6 from "./RightSection6";
+import RightSection7 from "./RightSection7";
 
 export default function Right() {
 	return (
@@ -11,6 +14,9 @@ export default function Right() {
 			<RightSection2 />
 			<RightSection3 />
 			<RightSection4 />
+			<RightSection5 />
+			<RightSection6 />
+			<RightSection7 />
 		</div>
 	);
 }

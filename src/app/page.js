@@ -1,5 +1,11 @@
-import Image from "next/image";
+import Container from "@/components/Container/Container";
+import Sidebar from "@/components/Sidebar/Sidebar";
 
 export default function Home() {
-	return <div>Hello World</div>;
+	return (
+		<div className="flex flex-row">
+			<Sidebar />
+			<Container />
+		</div>
+	);
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import {iconwhite} from "../Data/Data";
+import {iconwhite} from "../../Data/Data";
 
 export default function TopNav() {
 	return (

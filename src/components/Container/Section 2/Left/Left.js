@@ -8,11 +8,11 @@ export default function Left() {
 			<DropdownHead title={"ITINERAIRE"} />
 			<DropdownItem title={"19 Septembre 2023"} />
 			<DropdownItem title={"20 Septembre 2023"} />
-			<DropdownItem title={"Nouveau jour"} />
+			<DropdownItem title={"+ Nouveau jour"} />
 			<DropdownHead title={"DETAILS"} />
 			<DropdownItem title={"Informations & documents"} />
 			<DropdownItem title={"Notes"} />
-			<DropdownItem title={"Nouvelle liste"} />
+			<DropdownItem title={"+ Nouvelle liste"} />
 		</div>
 	);
 }

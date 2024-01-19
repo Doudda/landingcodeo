@@ -2,6 +2,7 @@ import React from "react";
 import TopNav from "./TopNav";
 import ProfilBottomRight from "./ProfilBottomRight";
 import SmallTitle from "./SmallTitle";
+import {SlCalender} from "react-icons/sl";
 
 export default function Section1() {
 	return (
@@ -12,7 +13,10 @@ export default function Section1() {
 					<div className="flex flex-col gap-2">
 						<h1 className="text-5xl font-bold">Wildlife Exploration in Andasibe - Maruxi</h1>
 						<SmallTitle />
-						<div className="font-semibold">19 SEP 2023 - 21 SEP 2023</div>
+						<div className="font-semibold flex flex-row items-center gap-2">
+							<SlCalender />
+							19 SEP 2023 - 21 SEP 2023
+						</div>
 					</div>
 					<ProfilBottomRight />
 				</div>

@@ -9,7 +9,7 @@ import RightSection7 from "./RightSection7";
 
 export default function Right() {
 	return (
-		<div className="container mx-auto mt-10 mr-[25px] pr-[100px]">
+		<div className="container mx-auto mt-10 mr-[25px] pr-[100px] min-h-[1500px]">
 			<RightSection1 />
 			<RightSection2 />
 			<RightSection3 />

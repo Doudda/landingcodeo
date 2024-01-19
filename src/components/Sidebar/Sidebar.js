@@ -7,16 +7,16 @@ export default function Sidebar() {
 			<div className="flex">
 				<div className="flex flex-col gap-5 p-5 pt-16 bg-white min-h-[700px]">
 					<div className="flex flex-col items-center gap-7 grow">
-						<div className="">{icon}</div>
-						<div className="">{icon}</div>
-						<div className="">{icon}</div>
-						<div className="">{icon}</div>
-						<div className="">{icon}</div>
-						<div className="">{icon}</div>
-						<div className="">{icon}</div>
+						<div className="hover:cursor-pointer">{icon}</div>
+						<div className="hover:cursor-pointer">{icon}</div>
+						<div className="hover:cursor-pointer">{icon}</div>
+						<div className="hover:cursor-pointer">{icon}</div>
+						<div className="hover:cursor-pointer">{icon}</div>
+						<div className="hover:cursor-pointer">{icon}</div>
+						<div className="hover:cursor-pointer">{icon}</div>
 					</div>
 					<div className="shrink">
-						<div className="">{settingIcon}</div>
+						<div className="hover:cursor-pointer">{settingIcon}</div>
 					</div>
 				</div>
 			</div>

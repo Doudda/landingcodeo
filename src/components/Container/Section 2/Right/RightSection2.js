@@ -1,4 +1,5 @@
 import React from "react";
+import {SlClock} from "react-icons/sl";
 
 export default function RightSection2() {
 	return (
@@ -9,7 +10,9 @@ export default function RightSection2() {
 				</div>
 				<div className="flex flex-row gap-5 text-gray-300 pt-2">
 					<div>
-						<div>Horaire</div>
+						<div className="flex flex-row items-center gap-1">
+							<SlClock /> Horaire
+						</div>
 						<div className="text-purple-950 font-bold">22:53</div>
 					</div>
 					<span class="border-solid border-2 border-gray-300"></span>

@@ -14,7 +14,7 @@ export default function ProfilBottomRight() {
 					<div className="text-gray-200">Admin</div>
 				</div>
 			</div>
-			<div className="bg-pink-700 w-[110px] h-10 flex justify-center items-center gap-2 rounded-md shadow-md hover:bg-pink-500">
+			<div className="bg-pink-700 w-[110px] h-10 flex justify-center items-center gap-2 rounded-md shadow-md hover:bg-pink-500 hover:cursor-pointer">
 				<SlPaperPlane />
 				Envoyer
 			</div>

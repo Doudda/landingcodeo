@@ -1,4 +1,6 @@
 import React from "react";
+import {SlDirection} from "react-icons/sl";
+import {SlPaypal} from "react-icons/sl";
 
 export default function RightSection3() {
 	return (
@@ -14,8 +16,14 @@ export default function RightSection3() {
 				<img className="rounded-xl" src="down.jpg" />
 			</div>
 			<div className="flex flex-row gap-2 text-gray-300 mt-2">
-				<div className="bg-gray-100 py-1 px-3 rounded-full">Tout guide</div>
-				<div className="bg-gray-100 py-1 px-3 rounded-full">Prix entree</div>
+				<div className="bg-gray-100 py-1 px-3 rounded-full hover:cursor-pointer flex flex-row gap-1 items-center">
+					<SlDirection />
+					Tout guide
+				</div>
+				<div className="bg-gray-100 py-1 px-3 rounded-full hover:cursor-pointer flex flex-row gap-1 items-center">
+					<SlPaypal />
+					Prix entree
+				</div>
 			</div>
 		</div>
 	);

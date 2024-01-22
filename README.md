@@ -1,4 +1,4 @@
-## Voici le test d'integration effectue lors de ma visite chez CODEO
+## Voici le test d'integration effectué lors de ma visite chez CODEO
 
 Assurez-vous d'avoir installé la derniere version de NodeJS.
 
@@ -14,6 +14,6 @@ Et enfin, vous pouvez lancer le serveur de développement avec la commande suiva
 npm run dev
 ```
 
-Veuillez maintenant ouvrir : [http://localhost:3000](http://localhost:3000) avec votre navigateur préféré afin.
+Veuillez maintenant ouvrir : [http://localhost:3000](http://localhost:3000) avec votre navigateur préféré.
 
 ## MERCI BEAUCOUP
